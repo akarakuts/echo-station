@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <exclude domain="sharedpref" path="russian_checkers_prefs.preferences_pb" />
+    <exclude domain="device_sharedpref" path="russian_checkers_prefs.preferences_pb" />
+</full-backup-content>

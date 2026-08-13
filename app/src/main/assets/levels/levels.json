@@ -1,0 +1,1788 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "act": 1,
+      "puzzleType": "WAVE",
+      "difficulty": 1,
+      "params": {
+        "targetPhase": 0.37,
+        "targetAmplitude": 0.53,
+        "noiseSeed": 20,
+        "tolerance": 0.178,
+        "holdFrames": 12,
+        "targetFrequency": 3.48,
+        "useFrequency": false,
+        "drift": 0.0,
+        "hideAmplitude": true,
+        "glitchEvery": 0,
+        "glitchFrames": 0,
+        "envelope": "sine"
+      },
+      "storyRewardId": "r001",
+      "unlockPrevId": null
+    },
+    {
+      "id": 2,
+      "act": 1,
+      "puzzleType": "WAVE",
+      "difficulty": 1,
+      "params": {
+        "targetPhase": 0.74,
+        "targetAmplitude": 0.53,
+        "noiseSeed": 37,
+        "tolerance": 0.178,
+        "holdFrames": 12,
+        "targetFrequency": 3.86,
+        "useFrequency": false,
+        "drift": 0.0,
+        "hideAmplitude": true,
+        "glitchEvery": 0,
+        "glitchFrames": 0,
+        "envelope": "sine"
+      },
+      "storyRewardId": "r002",
+      "unlockPrevId": 1
+    },
+    {
+      "id": 3,
+      "act": 1,
+      "puzzleType": "WAVE",
+      "difficulty": 1,
+      "params": {
+        "targetPhase": 1.11,
+        "targetAmplitude": 0.53,
+        "noiseSeed": 54,
+        "tolerance": 0.178,
+        "holdFrames": 12,
+        "targetFrequency": 4.24,
+        "useFrequency": false,
+        "drift": 0.0,
+        "hideAmplitude": false,
+        "glitchEvery": 0,
+        "glitchFrames": 0,
+        "envelope": "sine"
+      },
+      "storyRewardId": "r003",
+      "unlockPrevId": 2
+    },
+    {
+      "id": 4,
+      "act": 1,
+      "puzzleType": "WAVE",
+      "difficulty": 1,
+      "params": {
+        "targetPhase": 1.48,
+        "targetAmplitude": 0.53,
+        "noiseSeed": 71,
+        "tolerance": 0.178,
+        "holdFrames": 12,
+        "targetFrequency": 4.62,
+        "useFrequency": false,
+        "drift": 0.0,
+        "hideAmplitude": false,
+        "glitchEvery": 0,
+        "glitchFrames": 0,
+        "envelope": "sine"
+      },
+      "storyRewardId": "r004",
+      "unlockPrevId": 3
+    },
+    {
+      "id": 5,
+      "act": 1,
+      "puzzleType": "WAVE",
+      "difficulty": 1,
+      "params": {
+        "targetPhase": 1.85,
+        "targetAmplitude": 0.53,
+        "noiseSeed": 88,
+        "tolerance": 0.178,
+        "holdFrames": 12,
+        "targetFrequency": 3.1,
+        "useFrequency": false,
+        "drift": 0.0,
+        "hideAmplitude": false,
+        "glitchEvery": 0,
+        "glitchFrames": 0,
+        "envelope": "sine"
+      },
+      "storyRewardId": "r005",
+      "unlockPrevId": 4
+    },
+    {
+      "id": 6,
+      "act": 1,
+      "puzzleType": "WAVE",
+      "difficulty": 2,
+      "params": {
+        "targetPhase": 2.22,
+        "targetAmplitude": 0.61,
+        "noiseSeed": 105,
+        "tolerance": 0.156,
+        "holdFrames": 14,
+        "targetFrequency": 3.48,
+        "useFrequency": false,
+        "drift": 0.0,
+        "hideAmplitude": false,
+        "glitchEvery": 0,
+        "glitchFrames": 0,
+        "envelope": "sine"
+      },
+      "storyRewardId": "r006",
+      "unlockPrevId": 5
+    },
+    {
+      "id": 7,
+      "act": 1,
+      "puzzleType": "CABLE",
+      "difficulty": 2,
+      "params": {
+        "pairCount": 2,
+        "allowCrossing": true,
+        "seed": 217,
+        "mode": "match",
+        "lockCorrect": true,
+        "hideDigits": false,
+        "highlightPairId": -1
+      },
+      "storyRewardId": "r007",
+      "unlockPrevId": 6
+    },
+    {
+      "id": 8,
+      "act": 1,
+      "puzzleType": "CABLE",
+      "difficulty": 2,
+      "params": {
+        "pairCount": 2,
+        "allowCrossing": true,
+        "seed": 248,
+        "mode": "match",
+        "lockCorrect": true,
+        "hideDigits": false,
+        "highlightPairId": -1
+      },
+      "storyRewardId": "r008",
+      "unlockPrevId": 7
+    },
+    {
+      "id": 9,
+      "act": 1,
+      "puzzleType": "WAVE",
+      "difficulty": 2,
+      "params": {
+        "targetPhase": 3.33,
+        "targetAmplitude": 0.61,
+        "noiseSeed": 156,
+        "tolerance": 0.156,
+        "holdFrames": 14,
+        "targetFrequency": 4.62,
+        "useFrequency": false,
+        "drift": 0.0,
+        "hideAmplitude": false,
+        "glitchEvery": 0,
+        "glitchFrames": 0,
+        "envelope": "sine"
+      },
+      "storyRewardId": "r009",
+      "unlockPrevId": 8
+    },
+    {
+      "id": 10,
+      "act": 1,
+      "puzzleType": "WAVE",
+      "difficulty": 2,
+      "params": {
+        "targetPhase": 3.7,
+        "targetAmplitude": 0.61,
+        "noiseSeed": 173,
+        "tolerance": 0.156,
+        "holdFrames": 14,
+        "targetFrequency": 3.1,
+        "useFrequency": false,
+        "drift": 0.0,
+        "hideAmplitude": false,
+        "glitchEvery": 0,
+        "glitchFrames": 0,
+        "envelope": "sine"
+      },
+      "storyRewardId": "r010",
+      "unlockPrevId": 9
+    },
+    {
+      "id": 11,
+      "act": 1,
+      "puzzleType": "WAVE",
+      "difficulty": 3,
+      "params": {
+        "targetPhase": 4.07,
+        "targetAmplitude": 0.69,
+        "noiseSeed": 190,
+        "tolerance": 0.134,
+        "holdFrames": 16,
+        "targetFrequency": 3.48,
+        "useFrequency": false,
+        "drift": 0.019,
+        "hideAmplitude": false,
+        "glitchEvery": 0,
+        "glitchFrames": 0,
+        "envelope": "sine"
+      },
+      "storyRewardId": "r011",
+      "unlockPrevId": 10
+    },
+    {
+      "id": 12,
+      "act": 1,
+      "puzzleType": "WAVE",
+      "difficulty": 3,
+      "params": {
+        "targetPhase": 4.44,
+        "targetAmplitude": 0.69,
+        "noiseSeed": 207,
+        "tolerance": 0.134,
+        "holdFrames": 16,
+        "targetFrequency": 3.86,
+        "useFrequency": false,
+        "drift": 0.019,
+        "hideAmplitude": false,
+        "glitchEvery": 0,
+        "glitchFrames": 0,
+        "envelope": "sine"
+      },
+      "storyRewardId": "r012",
+      "unlockPrevId": 11
+    },
+    {
+      "id": 13,
+      "act": 1,
+      "puzzleType": "CABLE",
+      "difficulty": 3,
+      "params": {
+        "pairCount": 3,
+        "allowCrossing": true,
+        "seed": 403,
+        "mode": "match",
+        "lockCorrect": true,
+        "hideDigits": true,
+        "highlightPairId": -1
+      },
+      "storyRewardId": "r013",
+      "unlockPrevId": 12
+    },
+    {
+      "id": 14,
+      "act": 1,
+      "puzzleType": "CABLE",
+      "difficulty": 3,
+      "params": {
+        "pairCount": 3,
+        "allowCrossing": true,
+        "seed": 434,
+        "mode": "match",
+        "lockCorrect": true,
+        "hideDigits": true,
+        "highlightPairId": -1
+      },
+      "storyRewardId": "r014",
+      "unlockPrevId": 13
+    },
+    {
+      "id": 15,
+      "act": 1,
+      "puzzleType": "CABLE",
+      "difficulty": 3,
+      "params": {
+        "pairCount": 3,
+        "allowCrossing": true,
+        "seed": 465,
+        "mode": "match",
+        "lockCorrect": true,
+        "hideDigits": true,
+        "highlightPairId": -1
+      },
+      "storyRewardId": "r015",
+      "unlockPrevId": 14
+    },
+    {
+      "id": 16,
+      "act": 1,
+      "puzzleType": "CABLE",
+      "difficulty": 4,
+      "params": {
+        "pairCount": 3,
+        "allowCrossing": true,
+        "seed": 496,
+        "mode": "match",
+        "lockCorrect": true,
+        "hideDigits": true,
+        "highlightPairId": -1
+      },
+      "storyRewardId": "r016",
+      "unlockPrevId": 15
+    },
+    {
+      "id": 17,
+      "act": 1,
+      "puzzleType": "WAVE",
+      "difficulty": 4,
+      "params": {
+        "targetPhase": 0.0068,
+        "targetAmplitude": 0.77,
+        "noiseSeed": 292,
+        "tolerance": 0.112,
+        "holdFrames": 18,
+        "targetFrequency": 3.86,
+        "useFrequency": true,
+        "drift": 0.022,
+        "hideAmplitude": false,
+        "glitchEvery": 0,
+        "glitchFrames": 0,
+        "envelope": "sine"
+      },
+      "storyRewardId": "r017",
+      "unlockPrevId": 16
+    },
+    {
+      "id": 18,
+      "act": 1,
+      "puzzleType": "WAVE",
+      "difficulty": 4,
+      "params": {
+        "targetPhase": 0.3768,
+        "targetAmplitude": 0.77,
+        "noiseSeed": 309,
+        "tolerance": 0.112,
+        "holdFrames": 18,
+        "targetFrequency": 4.24,
+        "useFrequency": true,
+        "drift": 0.022,
+        "hideAmplitude": false,
+        "glitchEvery": 0,
+        "glitchFrames": 0,
+        "envelope": "sine"
+      },
+      "storyRewardId": "r018",
+      "unlockPrevId": 17
+    },
+    {
+      "id": 19,
+      "act": 1,
+      "puzzleType": "CABLE",
+      "difficulty": 4,
+      "params": {
+        "pairCount": 4,
+        "allowCrossing": false,
+        "seed": 589,
+        "mode": "untangle",
+        "lockCorrect": false,
+        "hideDigits": false,
+        "highlightPairId": -1
+      },
+      "storyRewardId": "r019",
+      "unlockPrevId": 18
+    },
+    {
+      "id": 20,
+      "act": 1,
+      "puzzleType": "CABLE",
+      "difficulty": 4,
+      "params": {
+        "pairCount": 4,
+        "allowCrossing": false,
+        "seed": 620,
+        "mode": "untangle",
+        "lockCorrect": false,
+        "hideDigits": false,
+        "highlightPairId": -1
+      },
+      "storyRewardId": "r020",
+      "unlockPrevId": 19
+    },
+    {
+      "id": 21,
+      "act": 2,
+      "puzzleType": "CABLE",
+      "difficulty": 2,
+      "params": {
+        "pairCount": 3,
+        "allowCrossing": false,
+        "seed": 651,
+        "mode": "untangle",
+        "lockCorrect": false,
+        "hideDigits": false,
+        "highlightPairId": -1
+      },
+      "storyRewardId": "r021",
+      "unlockPrevId": 20
+    },
+    {
+      "id": 22,
+      "act": 2,
+      "puzzleType": "CABLE",
+      "difficulty": 2,
+      "params": {
+        "pairCount": 3,
+        "allowCrossing": false,
+        "seed": 682,
+        "mode": "untangle",
+        "lockCorrect": false,
+        "hideDigits": false,
+        "highlightPairId": -1
+      },
+      "storyRewardId": "r022",
+      "unlockPrevId": 21
+    },
+    {
+      "id": 23,
+      "act": 2,
+      "puzzleType": "CABLE",
+      "difficulty": 2,
+      "params": {
+        "pairCount": 3,
+        "allowCrossing": false,
+        "seed": 713,
+        "mode": "untangle",
+        "lockCorrect": false,
+        "hideDigits": false,
+        "highlightPairId": -1
+      },
+      "storyRewardId": "r023",
+      "unlockPrevId": 22
+    },
+    {
+      "id": 24,
+      "act": 2,
+      "puzzleType": "CABLE",
+      "difficulty": 2,
+      "params": {
+        "pairCount": 3,
+        "allowCrossing": false,
+        "seed": 744,
+        "mode": "untangle",
+        "lockCorrect": false,
+        "hideDigits": false,
+        "highlightPairId": -1
+      },
+      "storyRewardId": "r024",
+      "unlockPrevId": 23
+    },
+    {
+      "id": 25,
+      "act": 2,
+      "puzzleType": "WAVE",
+      "difficulty": 2,
+      "params": {
+        "targetPhase": 2.9668,
+        "targetAmplitude": 0.61,
+        "noiseSeed": 428,
+        "tolerance": 0.156,
+        "holdFrames": 14,
+        "targetFrequency": 3.1,
+        "useFrequency": false,
+        "drift": 0.0,
+        "hideAmplitude": false,
+        "glitchEvery": 0,
+        "glitchFrames": 0,
+        "envelope": "sine"
+      },
+      "storyRewardId": "r025",
+      "unlockPrevId": 24
+    },
+    {
+      "id": 26,
+      "act": 2,
+      "puzzleType": "WAVE",
+      "difficulty": 2,
+      "params": {
+        "targetPhase": 3.3368,
+        "targetAmplitude": 0.61,
+        "noiseSeed": 445,
+        "tolerance": 0.156,
+        "holdFrames": 14,
+        "targetFrequency": 3.48,
+        "useFrequency": false,
+        "drift": 0.0,
+        "hideAmplitude": false,
+        "glitchEvery": 0,
+        "glitchFrames": 0,
+        "envelope": "sine"
+      },
+      "storyRewardId": "r026",
+      "unlockPrevId": 25
+    },
+    {
+      "id": 27,
+      "act": 2,
+      "puzzleType": "CABLE",
+      "difficulty": 2,
+      "params": {
+        "pairCount": 4,
+        "allowCrossing": false,
+        "seed": 837,
+        "mode": "untangle",
+        "lockCorrect": false,
+        "hideDigits": false,
+        "highlightPairId": -1
+      },
+      "storyRewardId": "r027",
+      "unlockPrevId": 26
+    },
+    {
+      "id": 28,
+      "act": 2,
+      "puzzleType": "CABLE",
+      "difficulty": 2,
+      "params": {
+        "pairCount": 4,
+        "allowCrossing": false,
+        "seed": 868,
+        "mode": "untangle",
+        "lockCorrect": false,
+        "hideDigits": false,
+        "highlightPairId": -1
+      },
+      "storyRewardId": "r028",
+      "unlockPrevId": 27
+    },
+    {
+      "id": 29,
+      "act": 2,
+      "puzzleType": "CABLE",
+      "difficulty": 3,
+      "params": {
+        "pairCount": 4,
+        "allowCrossing": false,
+        "seed": 899,
+        "mode": "untangle",
+        "lockCorrect": false,
+        "hideDigits": false,
+        "highlightPairId": -1
+      },
+      "storyRewardId": "r029",
+      "unlockPrevId": 28
+    },
+    {
+      "id": 30,
+      "act": 2,
+      "puzzleType": "CABLE",
+      "difficulty": 3,
+      "params": {
+        "pairCount": 4,
+        "allowCrossing": false,
+        "seed": 930,
+        "mode": "untangle",
+        "lockCorrect": false,
+        "hideDigits": false,
+        "highlightPairId": -1
+      },
+      "storyRewardId": "r030",
+      "unlockPrevId": 29
+    },
+    {
+      "id": 31,
+      "act": 2,
+      "puzzleType": "CASSETTE",
+      "difficulty": 3,
+      "params": {
+        "cols": 3,
+        "rows": 2,
+        "seed": 403,
+        "adjacentOnly": false,
+        "lockCorrect": false
+      },
+      "storyRewardId": "r031",
+      "unlockPrevId": 30
+    },
+    {
+      "id": 32,
+      "act": 2,
+      "puzzleType": "CASSETTE",
+      "difficulty": 3,
+      "params": {
+        "cols": 3,
+        "rows": 2,
+        "seed": 416,
+        "adjacentOnly": false,
+        "lockCorrect": false
+      },
+      "storyRewardId": "r032",
+      "unlockPrevId": 31
+    },
+    {
+      "id": 33,
+      "act": 2,
+      "puzzleType": "CASSETTE",
+      "difficulty": 3,
+      "params": {
+        "cols": 3,
+        "rows": 2,
+        "seed": 429,
+        "adjacentOnly": false,
+        "lockCorrect": false
+      },
+      "storyRewardId": "r033",
+      "unlockPrevId": 32
+    },
+    {
+      "id": 34,
+      "act": 2,
+      "puzzleType": "CASSETTE",
+      "difficulty": 3,
+      "params": {
+        "cols": 3,
+        "rows": 2,
+        "seed": 442,
+        "adjacentOnly": false,
+        "lockCorrect": true
+      },
+      "storyRewardId": "r034",
+      "unlockPrevId": 33
+    },
+    {
+      "id": 35,
+      "act": 2,
+      "puzzleType": "CASSETTE",
+      "difficulty": 3,
+      "params": {
+        "cols": 3,
+        "rows": 2,
+        "seed": 455,
+        "adjacentOnly": false,
+        "lockCorrect": true
+      },
+      "storyRewardId": "r035",
+      "unlockPrevId": 34
+    },
+    {
+      "id": 36,
+      "act": 2,
+      "puzzleType": "CASSETTE",
+      "difficulty": 3,
+      "params": {
+        "cols": 3,
+        "rows": 2,
+        "seed": 468,
+        "adjacentOnly": false,
+        "lockCorrect": true
+      },
+      "storyRewardId": "r036",
+      "unlockPrevId": 35
+    },
+    {
+      "id": 37,
+      "act": 2,
+      "puzzleType": "CABLE",
+      "difficulty": 4,
+      "params": {
+        "pairCount": 5,
+        "allowCrossing": false,
+        "seed": 1147,
+        "mode": "untangle",
+        "lockCorrect": false,
+        "hideDigits": false,
+        "highlightPairId": -1
+      },
+      "storyRewardId": "r037",
+      "unlockPrevId": 36
+    },
+    {
+      "id": 38,
+      "act": 2,
+      "puzzleType": "CABLE",
+      "difficulty": 4,
+      "params": {
+        "pairCount": 5,
+        "allowCrossing": false,
+        "seed": 1178,
+        "mode": "untangle",
+        "lockCorrect": false,
+        "hideDigits": false,
+        "highlightPairId": -1
+      },
+      "storyRewardId": "r038",
+      "unlockPrevId": 37
+    },
+    {
+      "id": 39,
+      "act": 2,
+      "puzzleType": "CASSETTE",
+      "difficulty": 4,
+      "params": {
+        "cols": 4,
+        "rows": 3,
+        "seed": 507,
+        "adjacentOnly": true,
+        "lockCorrect": true
+      },
+      "storyRewardId": "r039",
+      "unlockPrevId": 38
+    },
+    {
+      "id": 40,
+      "act": 2,
+      "puzzleType": "CASSETTE",
+      "difficulty": 4,
+      "params": {
+        "cols": 4,
+        "rows": 3,
+        "seed": 520,
+        "adjacentOnly": true,
+        "lockCorrect": true
+      },
+      "storyRewardId": "r040",
+      "unlockPrevId": 39
+    },
+    {
+      "id": 41,
+      "act": 2,
+      "puzzleType": "FREQUENCY",
+      "difficulty": 4,
+      "params": {
+        "markerCount": 2,
+        "slotCount": 3,
+        "tolerance": 0.08,
+        "seed": 779,
+        "targets": [
+          0.833,
+          0.167
+        ],
+        "assigned": true,
+        "legend": true,
+        "zones": true
+      },
+      "storyRewardId": "r041",
+      "unlockPrevId": 40
+    },
+    {
+      "id": 42,
+      "act": 2,
+      "puzzleType": "FREQUENCY",
+      "difficulty": 4,
+      "params": {
+        "markerCount": 2,
+        "slotCount": 3,
+        "tolerance": 0.08,
+        "seed": 798,
+        "targets": [
+          0.167,
+          0.833
+        ],
+        "assigned": true,
+        "legend": true,
+        "zones": true
+      },
+      "storyRewardId": "r042",
+      "unlockPrevId": 41
+    },
+    {
+      "id": 43,
+      "act": 2,
+      "puzzleType": "FREQUENCY",
+      "difficulty": 4,
+      "params": {
+        "markerCount": 2,
+        "slotCount": 3,
+        "tolerance": 0.08,
+        "seed": 817,
+        "targets": [
+          0.5,
+          0.167
+        ],
+        "assigned": true,
+        "legend": true,
+        "zones": true
+      },
+      "storyRewardId": "r043",
+      "unlockPrevId": 42
+    },
+    {
+      "id": 44,
+      "act": 2,
+      "puzzleType": "WAVE",
+      "difficulty": 4,
+      "params": {
+        "targetPhase": 3.7136,
+        "targetAmplitude": 0.77,
+        "noiseSeed": 751,
+        "tolerance": 0.112,
+        "holdFrames": 18,
+        "targetFrequency": 4.62,
+        "useFrequency": true,
+        "drift": 0.022,
+        "hideAmplitude": false,
+        "glitchEvery": 94,
+        "glitchFrames": 18,
+        "envelope": "sine"
+      },
+      "storyRewardId": "r044",
+      "unlockPrevId": 43
+    },
+    {
+      "id": 45,
+      "act": 2,
+      "puzzleType": "CABLE",
+      "difficulty": 5,
+      "params": {
+        "pairCount": 5,
+        "allowCrossing": false,
+        "seed": 1395,
+        "mode": "untangle",
+        "lockCorrect": false,
+        "hideDigits": false,
+        "highlightPairId": -1
+      },
+      "storyRewardId": "r045",
+      "unlockPrevId": 44
+    },
+    {
+      "id": 46,
+      "act": 2,
+      "puzzleType": "CASSETTE",
+      "difficulty": 5,
+      "params": {
+        "cols": 4,
+        "rows": 3,
+        "seed": 598,
+        "adjacentOnly": true,
+        "lockCorrect": true
+      },
+      "storyRewardId": "r046",
+      "unlockPrevId": 45
+    },
+    {
+      "id": 47,
+      "act": 2,
+      "puzzleType": "FREQUENCY",
+      "difficulty": 5,
+      "params": {
+        "markerCount": 4,
+        "slotCount": 6,
+        "tolerance": 0.08,
+        "seed": 893,
+        "targets": [
+          0.917,
+          0.083,
+          0.75,
+          0.583
+        ],
+        "assigned": true,
+        "legend": false,
+        "zones": true
+      },
+      "storyRewardId": "r047",
+      "unlockPrevId": 46
+    },
+    {
+      "id": 48,
+      "act": 2,
+      "puzzleType": "WAVE",
+      "difficulty": 5,
+      "params": {
+        "targetPhase": 5.1936,
+        "targetAmplitude": 0.85,
+        "noiseSeed": 819,
+        "tolerance": 0.09,
+        "holdFrames": 20,
+        "targetFrequency": 4.24,
+        "useFrequency": true,
+        "drift": 0.025,
+        "hideAmplitude": false,
+        "glitchEvery": 98,
+        "glitchFrames": 18,
+        "envelope": "sine"
+      },
+      "storyRewardId": "r048",
+      "unlockPrevId": 47
+    },
+    {
+      "id": 49,
+      "act": 2,
+      "puzzleType": "CABLE",
+      "difficulty": 5,
+      "params": {
+        "pairCount": 5,
+        "allowCrossing": false,
+        "seed": 1519,
+        "mode": "untangle",
+        "lockCorrect": false,
+        "hideDigits": false,
+        "highlightPairId": -1
+      },
+      "storyRewardId": "r049",
+      "unlockPrevId": 48
+    },
+    {
+      "id": 50,
+      "act": 2,
+      "puzzleType": "CASSETTE",
+      "difficulty": 5,
+      "params": {
+        "cols": 4,
+        "rows": 3,
+        "seed": 650,
+        "adjacentOnly": true,
+        "lockCorrect": true
+      },
+      "storyRewardId": "r050",
+      "unlockPrevId": 49
+    },
+    {
+      "id": 51,
+      "act": 3,
+      "puzzleType": "FREQUENCY",
+      "difficulty": 3,
+      "params": {
+        "markerCount": 3,
+        "slotCount": 4,
+        "tolerance": 0.12,
+        "seed": 969,
+        "targets": [
+          0.375,
+          0.625,
+          0.875
+        ],
+        "assigned": true,
+        "legend": false,
+        "zones": true
+      },
+      "storyRewardId": "r051",
+      "unlockPrevId": 50
+    },
+    {
+      "id": 52,
+      "act": 3,
+      "puzzleType": "WAVE",
+      "difficulty": 3,
+      "params": {
+        "targetPhase": 0.3904,
+        "targetAmplitude": 0.69,
+        "noiseSeed": 887,
+        "tolerance": 0.134,
+        "holdFrames": 16,
+        "targetFrequency": 3.86,
+        "useFrequency": true,
+        "drift": 0.019,
+        "hideAmplitude": false,
+        "glitchEvery": 102,
+        "glitchFrames": 18,
+        "envelope": "sine"
+      },
+      "storyRewardId": "r052",
+      "unlockPrevId": 51
+    },
+    {
+      "id": 53,
+      "act": 3,
+      "puzzleType": "CABLE",
+      "difficulty": 3,
+      "params": {
+        "pairCount": 4,
+        "allowCrossing": false,
+        "seed": 1643,
+        "mode": "untangle",
+        "lockCorrect": false,
+        "hideDigits": false,
+        "highlightPairId": -1
+      },
+      "storyRewardId": "r053",
+      "unlockPrevId": 52
+    },
+    {
+      "id": 54,
+      "act": 3,
+      "puzzleType": "CASSETTE",
+      "difficulty": 3,
+      "params": {
+        "cols": 3,
+        "rows": 2,
+        "seed": 702,
+        "adjacentOnly": false,
+        "lockCorrect": true
+      },
+      "storyRewardId": "r054",
+      "unlockPrevId": 53
+    },
+    {
+      "id": 55,
+      "act": 3,
+      "puzzleType": "FREQUENCY",
+      "difficulty": 3,
+      "params": {
+        "markerCount": 3,
+        "slotCount": 4,
+        "tolerance": 0.12,
+        "seed": 1045,
+        "targets": [
+          0.375,
+          0.875,
+          0.625
+        ],
+        "assigned": true,
+        "legend": false,
+        "zones": true
+      },
+      "storyRewardId": "r055",
+      "unlockPrevId": 54
+    },
+    {
+      "id": 56,
+      "act": 3,
+      "puzzleType": "WAVE",
+      "difficulty": 3,
+      "params": {
+        "targetPhase": 1.8704,
+        "targetAmplitude": 0.69,
+        "noiseSeed": 955,
+        "tolerance": 0.134,
+        "holdFrames": 16,
+        "targetFrequency": 3.48,
+        "useFrequency": true,
+        "drift": 0.019,
+        "hideAmplitude": false,
+        "glitchEvery": 106,
+        "glitchFrames": 18,
+        "envelope": "sine"
+      },
+      "storyRewardId": "r056",
+      "unlockPrevId": 55
+    },
+    {
+      "id": 57,
+      "act": 3,
+      "puzzleType": "CABLE",
+      "difficulty": 3,
+      "params": {
+        "pairCount": 4,
+        "allowCrossing": false,
+        "seed": 1767,
+        "mode": "untangle",
+        "lockCorrect": false,
+        "hideDigits": false,
+        "highlightPairId": -1
+      },
+      "storyRewardId": "r057",
+      "unlockPrevId": 56
+    },
+    {
+      "id": 58,
+      "act": 3,
+      "puzzleType": "CASSETTE",
+      "difficulty": 3,
+      "params": {
+        "cols": 3,
+        "rows": 2,
+        "seed": 754,
+        "adjacentOnly": false,
+        "lockCorrect": true
+      },
+      "storyRewardId": "r058",
+      "unlockPrevId": 57
+    },
+    {
+      "id": 59,
+      "act": 3,
+      "puzzleType": "FREQUENCY",
+      "difficulty": 4,
+      "params": {
+        "markerCount": 4,
+        "slotCount": 5,
+        "tolerance": 0.08,
+        "seed": 1121,
+        "targets": [
+          0.3,
+          0.1,
+          0.7,
+          0.5
+        ],
+        "assigned": true,
+        "legend": false,
+        "zones": true
+      },
+      "storyRewardId": "r059",
+      "unlockPrevId": 58
+    },
+    {
+      "id": 60,
+      "act": 3,
+      "puzzleType": "MULTI",
+      "difficulty": 4,
+      "params": {
+        "steps": [
+          {
+            "type": "WAVE",
+            "params": {
+              "targetPhase": 3.3504,
+              "targetAmplitude": 0.69,
+              "noiseSeed": 1023,
+              "tolerance": 0.134,
+              "holdFrames": 16,
+              "targetFrequency": 3.1,
+              "useFrequency": true,
+              "drift": 0.019,
+              "hideAmplitude": false,
+              "glitchEvery": 90,
+              "glitchFrames": 18,
+              "envelope": "sine"
+            }
+          },
+          {
+            "type": "FREQUENCY",
+            "params": {
+              "markerCount": 3,
+              "slotCount": 4,
+              "tolerance": 0.12,
+              "seed": 1140,
+              "targets": [
+                0.125,
+                0.625,
+                0.375
+              ],
+              "assigned": true,
+              "legend": false,
+              "zones": true
+            }
+          }
+        ]
+      },
+      "storyRewardId": "r060",
+      "unlockPrevId": 59
+    },
+    {
+      "id": 61,
+      "act": 3,
+      "puzzleType": "CABLE",
+      "difficulty": 4,
+      "params": {
+        "pairCount": 5,
+        "allowCrossing": false,
+        "seed": 1891,
+        "mode": "untangle",
+        "lockCorrect": false,
+        "hideDigits": false,
+        "highlightPairId": -1
+      },
+      "storyRewardId": "r061",
+      "unlockPrevId": 60
+    },
+    {
+      "id": 62,
+      "act": 3,
+      "puzzleType": "CASSETTE",
+      "difficulty": 4,
+      "params": {
+        "cols": 4,
+        "rows": 3,
+        "seed": 806,
+        "adjacentOnly": true,
+        "lockCorrect": true
+      },
+      "storyRewardId": "r062",
+      "unlockPrevId": 61
+    },
+    {
+      "id": 63,
+      "act": 3,
+      "puzzleType": "FREQUENCY",
+      "difficulty": 4,
+      "params": {
+        "markerCount": 4,
+        "slotCount": 5,
+        "tolerance": 0.08,
+        "seed": 1197,
+        "targets": [
+          0.5,
+          0.1,
+          0.9,
+          0.3
+        ],
+        "assigned": true,
+        "legend": false,
+        "zones": true
+      },
+      "storyRewardId": "r063",
+      "unlockPrevId": 62
+    },
+    {
+      "id": 64,
+      "act": 3,
+      "puzzleType": "WAVE",
+      "difficulty": 4,
+      "params": {
+        "targetPhase": 4.8304,
+        "targetAmplitude": 0.77,
+        "noiseSeed": 1091,
+        "tolerance": 0.112,
+        "holdFrames": 18,
+        "targetFrequency": 4.62,
+        "useFrequency": true,
+        "drift": 0.022,
+        "hideAmplitude": false,
+        "glitchEvery": 94,
+        "glitchFrames": 18,
+        "envelope": "sine"
+      },
+      "storyRewardId": "r064",
+      "unlockPrevId": 63
+    },
+    {
+      "id": 65,
+      "act": 3,
+      "puzzleType": "CABLE",
+      "difficulty": 4,
+      "params": {
+        "pairCount": 5,
+        "allowCrossing": false,
+        "seed": 2015,
+        "mode": "untangle",
+        "lockCorrect": false,
+        "hideDigits": false,
+        "highlightPairId": -1
+      },
+      "storyRewardId": "r065",
+      "unlockPrevId": 64
+    },
+    {
+      "id": 66,
+      "act": 3,
+      "puzzleType": "CASSETTE",
+      "difficulty": 4,
+      "params": {
+        "cols": 4,
+        "rows": 3,
+        "seed": 858,
+        "adjacentOnly": true,
+        "lockCorrect": true
+      },
+      "storyRewardId": "r066",
+      "unlockPrevId": 65
+    },
+    {
+      "id": 67,
+      "act": 3,
+      "puzzleType": "FREQUENCY",
+      "difficulty": 5,
+      "params": {
+        "markerCount": 4,
+        "slotCount": 6,
+        "tolerance": 0.08,
+        "seed": 1273,
+        "targets": [
+          0.25,
+          0.083,
+          0.917,
+          0.583
+        ],
+        "assigned": true,
+        "legend": false,
+        "zones": true
+      },
+      "storyRewardId": "r067",
+      "unlockPrevId": 66
+    },
+    {
+      "id": 68,
+      "act": 3,
+      "puzzleType": "MULTI",
+      "difficulty": 5,
+      "params": {
+        "steps": [
+          {
+            "type": "CABLE",
+            "params": {
+              "pairCount": 4,
+              "allowCrossing": false,
+              "seed": 2108,
+              "mode": "untangle",
+              "lockCorrect": false,
+              "hideDigits": false,
+              "highlightPairId": -1
+            }
+          },
+          {
+            "type": "CASSETTE",
+            "params": {
+              "cols": 3,
+              "rows": 2,
+              "seed": 884,
+              "adjacentOnly": false,
+              "lockCorrect": true
+            }
+          }
+        ]
+      },
+      "storyRewardId": "r068",
+      "unlockPrevId": 67
+    },
+    {
+      "id": 69,
+      "act": 3,
+      "puzzleType": "CABLE",
+      "difficulty": 5,
+      "params": {
+        "pairCount": 5,
+        "allowCrossing": false,
+        "seed": 2139,
+        "mode": "untangle",
+        "lockCorrect": false,
+        "hideDigits": false,
+        "highlightPairId": -1
+      },
+      "storyRewardId": "r069",
+      "unlockPrevId": 68
+    },
+    {
+      "id": 70,
+      "act": 3,
+      "puzzleType": "CASSETTE",
+      "difficulty": 5,
+      "params": {
+        "cols": 4,
+        "rows": 3,
+        "seed": 910,
+        "adjacentOnly": true,
+        "lockCorrect": true
+      },
+      "storyRewardId": "r070",
+      "unlockPrevId": 69
+    },
+    {
+      "id": 71,
+      "act": 3,
+      "puzzleType": "FREQUENCY",
+      "difficulty": 5,
+      "params": {
+        "markerCount": 4,
+        "slotCount": 6,
+        "tolerance": 0.08,
+        "seed": 1349,
+        "targets": [
+          0.917,
+          0.25,
+          0.75,
+          0.583
+        ],
+        "assigned": true,
+        "legend": false,
+        "zones": true
+      },
+      "storyRewardId": "r071",
+      "unlockPrevId": 70
+    },
+    {
+      "id": 72,
+      "act": 3,
+      "puzzleType": "MULTI",
+      "difficulty": 5,
+      "params": {
+        "steps": [
+          {
+            "type": "WAVE",
+            "params": {
+              "targetPhase": 1.5073,
+              "targetAmplitude": 0.77,
+              "noiseSeed": 1227,
+              "tolerance": 0.112,
+              "holdFrames": 18,
+              "targetFrequency": 3.86,
+              "useFrequency": true,
+              "drift": 0.022,
+              "hideAmplitude": false,
+              "glitchEvery": 102,
+              "glitchFrames": 18,
+              "envelope": "sine"
+            }
+          },
+          {
+            "type": "CABLE",
+            "params": {
+              "pairCount": 4,
+              "allowCrossing": false,
+              "seed": 2232,
+              "mode": "untangle",
+              "lockCorrect": false,
+              "hideDigits": false,
+              "highlightPairId": -1
+            }
+          },
+          {
+            "type": "FREQUENCY",
+            "params": {
+              "markerCount": 3,
+              "slotCount": 4,
+              "tolerance": 0.12,
+              "seed": 1368,
+              "targets": [
+                0.125,
+                0.625,
+                0.375
+              ],
+              "assigned": true,
+              "legend": false,
+              "zones": true
+            }
+          }
+        ]
+      },
+      "storyRewardId": "r072",
+      "unlockPrevId": 71
+    },
+    {
+      "id": 73,
+      "act": 3,
+      "puzzleType": "CABLE",
+      "difficulty": 5,
+      "params": {
+        "pairCount": 5,
+        "allowCrossing": false,
+        "seed": 2263,
+        "mode": "untangle",
+        "lockCorrect": false,
+        "hideDigits": false,
+        "highlightPairId": -1
+      },
+      "storyRewardId": "r073",
+      "unlockPrevId": 72
+    },
+    {
+      "id": 74,
+      "act": 3,
+      "puzzleType": "CASSETTE",
+      "difficulty": 5,
+      "params": {
+        "cols": 4,
+        "rows": 3,
+        "seed": 962,
+        "adjacentOnly": true,
+        "lockCorrect": true
+      },
+      "storyRewardId": "r074",
+      "unlockPrevId": 73
+    },
+    {
+      "id": 75,
+      "act": 3,
+      "puzzleType": "MULTI",
+      "difficulty": 5,
+      "params": {
+        "steps": [
+          {
+            "type": "WAVE",
+            "params": {
+              "targetPhase": 2.6173,
+              "targetAmplitude": 0.77,
+              "noiseSeed": 1278,
+              "tolerance": 0.112,
+              "holdFrames": 18,
+              "targetFrequency": 3.1,
+              "useFrequency": true,
+              "drift": 0.022,
+              "hideAmplitude": false,
+              "glitchEvery": 105,
+              "glitchFrames": 18,
+              "envelope": "double"
+            }
+          },
+          {
+            "type": "CABLE",
+            "params": {
+              "pairCount": 4,
+              "allowCrossing": false,
+              "seed": 2325,
+              "mode": "untangle",
+              "lockCorrect": false,
+              "hideDigits": false,
+              "highlightPairId": -1
+            }
+          },
+          {
+            "type": "CASSETTE",
+            "params": {
+              "cols": 3,
+              "rows": 2,
+              "seed": 975,
+              "adjacentOnly": false,
+              "lockCorrect": true
+            }
+          }
+        ]
+      },
+      "storyRewardId": "r075",
+      "unlockPrevId": 74
+    },
+    {
+      "id": 76,
+      "act": 3,
+      "puzzleType": "MULTI",
+      "difficulty": 5,
+      "params": {
+        "steps": [
+          {
+            "type": "WAVE",
+            "params": {
+              "targetPhase": 2.9873,
+              "targetAmplitude": 0.77,
+              "noiseSeed": 1295,
+              "tolerance": 0.112,
+              "holdFrames": 18,
+              "targetFrequency": 3.48,
+              "useFrequency": true,
+              "drift": 0.022,
+              "hideAmplitude": false,
+              "glitchEvery": 106,
+              "glitchFrames": 18,
+              "envelope": "double"
+            }
+          },
+          {
+            "type": "CABLE",
+            "params": {
+              "pairCount": 4,
+              "allowCrossing": false,
+              "seed": 2356,
+              "mode": "untangle",
+              "lockCorrect": false,
+              "hideDigits": false,
+              "highlightPairId": -1
+            }
+          },
+          {
+            "type": "CASSETTE",
+            "params": {
+              "cols": 3,
+              "rows": 2,
+              "seed": 988,
+              "adjacentOnly": false,
+              "lockCorrect": true
+            }
+          }
+        ]
+      },
+      "storyRewardId": "r076",
+      "unlockPrevId": 75
+    },
+    {
+      "id": 77,
+      "act": 3,
+      "puzzleType": "MULTI",
+      "difficulty": 5,
+      "params": {
+        "steps": [
+          {
+            "type": "WAVE",
+            "params": {
+              "targetPhase": 3.3573,
+              "targetAmplitude": 0.77,
+              "noiseSeed": 1312,
+              "tolerance": 0.112,
+              "holdFrames": 18,
+              "targetFrequency": 3.86,
+              "useFrequency": true,
+              "drift": 0.022,
+              "hideAmplitude": false,
+              "glitchEvery": 107,
+              "glitchFrames": 18,
+              "envelope": "double"
+            }
+          },
+          {
+            "type": "CABLE",
+            "params": {
+              "pairCount": 4,
+              "allowCrossing": false,
+              "seed": 2387,
+              "mode": "untangle",
+              "lockCorrect": false,
+              "hideDigits": false,
+              "highlightPairId": -1
+            }
+          },
+          {
+            "type": "CASSETTE",
+            "params": {
+              "cols": 3,
+              "rows": 2,
+              "seed": 1001,
+              "adjacentOnly": false,
+              "lockCorrect": true
+            }
+          }
+        ]
+      },
+      "storyRewardId": "r077",
+      "unlockPrevId": 76
+    },
+    {
+      "id": 78,
+      "act": 3,
+      "puzzleType": "MULTI",
+      "difficulty": 5,
+      "params": {
+        "steps": [
+          {
+            "type": "WAVE",
+            "params": {
+              "targetPhase": 3.7273,
+              "targetAmplitude": 0.77,
+              "noiseSeed": 1329,
+              "tolerance": 0.112,
+              "holdFrames": 18,
+              "targetFrequency": 4.24,
+              "useFrequency": true,
+              "drift": 0.022,
+              "hideAmplitude": false,
+              "glitchEvery": 108,
+              "glitchFrames": 18,
+              "envelope": "double"
+            }
+          },
+          {
+            "type": "CABLE",
+            "params": {
+              "pairCount": 4,
+              "allowCrossing": false,
+              "seed": 2418,
+              "mode": "untangle",
+              "lockCorrect": false,
+              "hideDigits": false,
+              "highlightPairId": -1
+            }
+          },
+          {
+            "type": "CASSETTE",
+            "params": {
+              "cols": 3,
+              "rows": 2,
+              "seed": 1014,
+              "adjacentOnly": false,
+              "lockCorrect": true
+            }
+          }
+        ]
+      },
+      "storyRewardId": "r078",
+      "unlockPrevId": 77
+    },
+    {
+      "id": 79,
+      "act": 3,
+      "puzzleType": "MULTI",
+      "difficulty": 5,
+      "params": {
+        "steps": [
+          {
+            "type": "WAVE",
+            "params": {
+              "targetPhase": 4.0973,
+              "targetAmplitude": 0.77,
+              "noiseSeed": 1346,
+              "tolerance": 0.112,
+              "holdFrames": 18,
+              "targetFrequency": 4.62,
+              "useFrequency": true,
+              "drift": 0.022,
+              "hideAmplitude": false,
+              "glitchEvery": 109,
+              "glitchFrames": 18,
+              "envelope": "double"
+            }
+          },
+          {
+            "type": "CABLE",
+            "params": {
+              "pairCount": 4,
+              "allowCrossing": false,
+              "seed": 2449,
+              "mode": "untangle",
+              "lockCorrect": false,
+              "hideDigits": false,
+              "highlightPairId": -1
+            }
+          },
+          {
+            "type": "CASSETTE",
+            "params": {
+              "cols": 3,
+              "rows": 2,
+              "seed": 1027,
+              "adjacentOnly": false,
+              "lockCorrect": true
+            }
+          }
+        ]
+      },
+      "storyRewardId": "r079",
+      "unlockPrevId": 78
+    },
+    {
+      "id": 80,
+      "act": 3,
+      "puzzleType": "MULTI",
+      "difficulty": 5,
+      "params": {
+        "steps": [
+          {
+            "type": "WAVE",
+            "params": {
+              "targetPhase": 4.4673,
+              "targetAmplitude": 0.85,
+              "noiseSeed": 1363,
+              "tolerance": 0.09,
+              "holdFrames": 20,
+              "targetFrequency": 3.1,
+              "useFrequency": true,
+              "drift": 0.025,
+              "hideAmplitude": false,
+              "glitchEvery": 90,
+              "glitchFrames": 18,
+              "envelope": "double"
+            }
+          },
+          {
+            "type": "CABLE",
+            "params": {
+              "pairCount": 5,
+              "allowCrossing": false,
+              "seed": 2480,
+              "mode": "untangle",
+              "lockCorrect": false,
+              "hideDigits": false,
+              "highlightPairId": -1
+            }
+          },
+          {
+            "type": "CASSETTE",
+            "params": {
+              "cols": 4,
+              "rows": 3,
+              "seed": 1040,
+              "adjacentOnly": true,
+              "lockCorrect": true
+            }
+          },
+          {
+            "type": "FREQUENCY",
+            "params": {
+              "markerCount": 4,
+              "slotCount": 5,
+              "tolerance": 0.08,
+              "seed": 1520,
+              "targets": [
+                0.1,
+                0.9,
+                0.5,
+                0.7
+              ],
+              "assigned": true,
+              "legend": false,
+              "zones": true
+            }
+          }
+        ]
+      },
+      "storyRewardId": "r080",
+      "unlockPrevId": 79
+    }
+  ]
+}

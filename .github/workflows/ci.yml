@@ -1,0 +1,44 @@
+# Build, unit tests, and Lint on every push / PR to main.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - uses: android-actions/setup-android@v4
+
+      - uses: gradle/actions/wrapper-validation@v6
+
+      - uses: gradle/actions/setup-gradle@v6
+
+      - name: String resource parity (all locales)
+        run: chmod +x ./scripts/check_strings_parity.sh && ./scripts/check_strings_parity.sh
+
+      - name: Check (tests + lint + compile)
+        run: chmod +x ./gradlew && ./gradlew :app:check --no-daemon --stacktrace
+
+      - name: Release assemble (unsigned / debug-signed)
+        run: ./gradlew :app:assembleRelease --no-daemon --stacktrace
